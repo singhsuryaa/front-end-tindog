@@ -1,0 +1,146 @@
+body{
+  font-family: Montserrat;
+}
+.a{
+  color:black;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+h1{
+  color: white;
+  font-family: "Montserrat-Black-900";
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar{
+  padding-bottom: 3rem;
+}
+.navbar-brand{
+  color: #000;
+  font-family: "Ubuntu";
+  font-size: 4rem;
+  line-height: 1;
+}
+.nav-link{
+  color: #fff;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.download-button{
+   margin :8% 5% 4% 0%;
+}
+.title-img{
+  width: 18%;
+
+  transform: rotate(25deg);
+ margin-left: 10%;
+  position: absolute;
+ }
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.features-box{
+  text-align: center;
+  padding: 0 5%;
+}
+p{
+  color: #8f8f8f;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: Montserrat-Bold;
+  line-height: 2;
+}
+.icon{
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: red;
+}
+
+  /* <!-- Testimonials --> */
+
+
+
+#testimonials{
+
+  text-align: center;
+  background-color:  #ff4c68;
+  color: white;
+  font-weight: bold;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+  width: 15%;
+border-radius: 100%;
+margin:5%;
+}
+#press{
+  text-align: center;
+    background-color:  #ff4c68;
+    padding-bottom: 3% 15%;
+}
+.press-image{
+  width: 14%;
+
+  margin: 3% 5%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    height: 90%;
+    width: 70%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10%;
+}
+.cta-text{
+  font-family: Montserrat-Bold;
+  line-height: 2;
+  color: #fff;
+  font-size: 2rem;
+
+}
+#footer{
+  text-align: center;
+  padding: 7%;
+}
+.ic{
+margin:20px 10px;
+
+
+}
